@@ -1,0 +1,99 @@
+*{
+    background: pink;
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 110%;
+}
+
+.logoAlura {
+   width: 10%;
+}
+
+main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.text-area {
+    border: nome;
+    color: black;
+    margin-top: 90px;
+    text-transform: lowercase ;
+}
+
+::placeholder {color: black;}
+    .text-area:focus {
+        outline: none;
+    }
+
+.mensagem{
+    background: white;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: black;
+    margin-left: 90px;
+    margin-top: 20px;
+    position: fixed;
+}
+
+.mensagem:focus {
+    outline: none;
+}
+
+.botoes {
+    display: flex;
+    margin-top: 18px;
+}
+
+.btn-desencriptar {
+    background: white;
+    border: 1px solid white;
+    border-radius: 24px;
+    color: palevioletred;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.btn-encriptar {
+    background-color:palevioletred;
+    border: 1px solid palevioletred;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.btn-copiar {
+    border-radius: 24px;
+    background-color: rgb(201, 23, 165);
+    border: 1px solid rgb(201, 23, 165);
+    cursor: pointer;
+    height: 67px;
+    margin-left: 108px;
+    margin-top: 402px;
+    position: absolute;
+    width: 336px;
+}
+
+.btn-colar {
+    border-radius: 24px;
+    background-color: white;
+    border: 1px solid white;
+    display: block;
+    cursor: pointer;
+    margin-top: 10px;
+    padding: 10px 20px;
+}
+
+
+.informacao {
+    color: black;
+    font-size: 20px;
+}
+
